@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I am software engineer mainly on the backend side building web services.
+I am a software engineer mainly on the backend side building web services.
 
-I enjoy playing volleyball and running.
+Also, Volleyball and running are the greatest sports ever.
 
 ### Contact me
 
