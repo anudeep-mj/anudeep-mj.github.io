@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am software engineer mainly on the backend side building web services.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I enjoy playing volleyball and running.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[anudeep.mj@gmail.com](mailto:anudeep.mj@gmail.com)
