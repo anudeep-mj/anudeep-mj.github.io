@@ -5,7 +5,8 @@ title: First post!
 
 Am I doing this right ?
 
-`
+{% highlight java linenos %}
+
 import org.springframework.stereotype.Service;
 
 @Service
@@ -16,4 +17,5 @@ public class HelloWorldService
         return "Hello world!";
     }
 }
-`
+
+{% endhighlight %}
