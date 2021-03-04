@@ -7,7 +7,7 @@ Java sdk created which scans documents of upto 4gb for content and virus scannin
 File being uploaded is a CSV file.
 
 Problem:
-When a 1.7 GB file was being uploaded, the memory being consumed was around 7 GB! So how do we handle this issues ?
+When a 1.7 GB file was being uploaded, the memory being consumed was around 7 GB! So how do we handle this issue ?
 
 Solution/Methodology:
 Of course every issue has its own context. The issue we found was two-fold.
