@@ -11,15 +11,18 @@ When a 1.7 GB file was being uploaded, the memory being consumed was around 7 GB
 
 Solution/Methodology:
 Of course every issue has its own context. The issue we found was two-fold.
-1. When a CSV file was being parsed, we were loading the whole row before iterating on it using: 
+
+##First issue:
+When a CSV file was being parsed, we were loading the whole row before iterating on it using: 
 
          final List<CSVRecord> records = csvParser.getRecords();
   
 Lesson learnt was not to load the whole data but use Iterable instead.
 
          final Iterable<CSVRecord> records = CSVParser.parse(reader, CSVFormat.DEFAULT);
-  
-2. When you are looking for macros in a MSOffice file, you only need its metadata not the whole body too.
+
+##Second issue:
+When you are looking for macros in a MSOffice file, you only need its metadata not the whole body too.
 
 Basically we had to modify the recusive parser from
 
