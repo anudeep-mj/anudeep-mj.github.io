@@ -44,3 +44,4 @@ jvisualvm
 jconsole
 ibm heap analyser
 eclipse mac
+java_opts can be changed as per to get heap dump: https://stackoverflow.com/questions/542979/using-heapdumponoutofmemoryerror-parameter-for-heap-dump-for-jboss
